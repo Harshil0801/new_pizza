@@ -1,0 +1,12 @@
+.contact-button{
+    border-radius: 118px !important;
+
+} 
+.contact-button a{
+    text-decoration: none;
+    color: #2C2F24; 
+
+} 
+.contact-button a:hover{
+    color: #fff;  
+} 

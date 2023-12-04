@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Palace</title>
+
+  <!-- Favicon link -->
+  <link rel="icon" href="../assets/images/logo/fevicon.png" type="logo-image">
+
+  <!-- css link  -->
+  <!-- <link rel="stylesheet" href="../assets/css/login.css"> -->
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/pizza-page.css">
+  <!-- <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/login.css"> -->
+
+  <!-- boostrap css link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Playfair Display and Poppins fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&family=Poppins:wght@100&display=swap"
+    rel="stylesheet">
+  <!--  font dm-sanc -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,500;9..40,700;9..40,800;9..40,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&family=Poppins:wght@100&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold" href="#"> <img src="../assets/images/logo/logo.png" alt=""></a>
+
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation link -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+          <!-- Navigation items -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+
+        <!-- Contact Button -->
+        <button class="btn btn-outline-dark fw-bold contact-button" type="submit">Contact Us</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Pizza Saction -->
+  <section>
+    <h1 class="text-center">PIZZA</h1>
+
+    <!-- Navigation pills for different pages -->
+    <div class="flex-center btn-group-custom ">
+      <div>
+        <ul class="nav nav-pills nav-primary" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="f-w-600 nav-link" href="side-page.html">Side</a>
+          </li>
+          <li class="nav-item">
+            <a class="f-w-600 nav-link" href="Desserts">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="f-w-600 nav-link" href="#pills-tab5">Desserts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section For  Displaying pizza items -->
+  <section>
+    <div class="container-fluid mt-4">
+      <div class="row" id="cards">
+        <!-- Cards for individual pizza items will be dynamically added here -->
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+
+                <!-- Footer widgets -->
+                  <div class="col-xl-4 col-lg-4 mb-50">
+
+                    <!-- Logo, text, and social icons -->
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="../assets/images/logo/dark-logo.png" class="img-fluid" alt="logo"></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                              elit,Lorem ipsum dolor sit amet.</p>
+                          </div>
+                          <div class="footer-social-icon">
+                              <span>Follow us</span>
+                              <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                              <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                              <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+                            <!-- links -->
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">about</a></li>
+                              <li><a href="#">services</a></li>
+                              <li><a href="#">portfolio</a></li>
+                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">About us</a></li>
+                              <li><a href="#">Our Services</a></li>
+                              <li><a href="#">Expert Team</a></li>
+                              <li><a href="#">Contact us</a></li>
+                              <li><a href="#">Latest News</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Follow Us On Instagram</h3>
+                          </div>
+                      </div>
+
+                      <!-- instagram images -->
+                      <div class="row footer-content-img">
+                        <div class="col-6 p-0">
+                          <img src="../assets/images/footer/1.png" alt="">
+                        </div>
+                        <div class="col-6 p-0">
+                          <img src="../assets/images/footer/2.png" alt="">
+                        </div>
+                        <div class="col-6 p-0">
+                          <img src="../assets/images/footer/3.png" alt="">
+                        </div>
+                        <div class="col-6 p-0">
+                          <img src="../assets/images/footer/4.png" alt="">
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <p class="text-center">Copyright © 2023  All Rights Reserved</p>
+          </div>
+      </div>
+    </footer>
+  </section>
+
+  
+
+  <script src="../assets/js/login.js"></script>
+
+  <!-- fether icon -->
+  <!-- <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+ -->
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/a1c19e3409.js" crossorigin="anonymous"></script>
+  <!-- bootstrap cdn link -->
+  <script src="../assets/js/dataList.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

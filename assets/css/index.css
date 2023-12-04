@@ -1,0 +1,157 @@
+
+/* =================================== */
+body{
+    /* font-family: 'Playfair Display', serif !important; */
+    font-family: 'DM Sans' !important;
+    
+    background-image: url('../images/logo/login/login.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img-login{
+    padding: 0% 30%;
+}
+.card.login-card{ 
+    padding: 40px;
+}
+
+
+.show-hide {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  transform: translateY(-50%);
+}
+
+.show-hide span {
+  cursor: pointer;
+  font-size: 13px;
+  color: black;
+}
+
+.show-hide span.show:before {
+  content: "show";
+}
+
+.show-hide span:before {
+  content: "hide";
+}
+.login-main { 
+  width: 440px; 
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 37px rgba(8, 21, 66, 0.05);
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.login-main .theme-form h4 {
+  margin-bottom: 5px;
+}
+.login-main .theme-form {
+   position: relative;
+}
+
+.login-main .theme-form label {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+.login-main .theme-form .checkbox label::before {
+  background-color: white;
+  border: 1px solid #dfdfdf;
+}
+
+.login-card .logo {
+  display: block;
+  margin: 30px 30px;
+  text-align: center;
+}
+
+.login-card .btn-showcase .btn {
+  line-height: 1;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.login-card .btn-showcase .btn+.btn {
+  margin-left: 5px;
+}
+
+.login-card .btn-showcase .btn svg {
+  height: 16px;
+  vertical-align: bottom;
+}
+
+.login-card .login-main {
+  width: 490px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 37px rgba(8, 21, 66, 0.05);
+  margin: 0 auto;
+  background-color: white;
+}
+
+.login-card .login-main .theme-form h4 {
+  margin-bottom: 5px;
+}
+
+.login-card .login-main .theme-form label {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+
+.login-card .login-main .theme-form .checkbox label::before {
+  background-color: white;
+  border: 1px solid #dfdfdf;
+}
+
+
+
+.login-card .login-main .theme-form input {
+  background-color: white;
+  transition: all 0.3s ease;
+  border-radius: 14px;
+  padding: 10px 20px 10px 20px;
+}
+
+.login-card .login-main .theme-form input[type="password"] {
+    padding: 10px 60px 10px 20px;
+}
+
+.login-card .login-main .theme-form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.login-card .login-main .theme-form input:hover,
+.login-card .login-main .theme-form input:focus {
+  border: 1px solid black;  
+  box-shadow: none !important;
+  transition: all 0.3s ease;
+  border-radius: 14px;
+}
+
+.login-card .login-main .theme-form p {
+  margin-bottom: 25px;
+  font-size: 14px; 
+  color: gray;
+}
+.login-card .login-main .theme-form p a{
+    color: #575757;
+}
+.login-card .login-main .theme-form .form-group {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card .login-main .theme-form .link {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  color: #2C2F24;
+}
+
